@@ -13,7 +13,7 @@ public class Produto {
 	private static final long serialVersionUID = 1;
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer codProduto;
 	
 	private String nomeProduto;	
