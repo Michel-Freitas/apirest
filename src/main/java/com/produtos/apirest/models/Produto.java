@@ -10,8 +10,6 @@ import javax.persistence.Table;
 @Table(name="TB_PRODUTO")
 public class Produto {
 	
-	private static final long serialVersionUID = 1;
-	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer codProduto;
